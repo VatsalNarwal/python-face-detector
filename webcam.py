@@ -3,7 +3,7 @@ import cv2
 from random import randrange
 
 # Load trained data from xml file
-td = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+td = cv2.CascadeClassifier('trained_data/haarcascade_frontalface_default.xml')
 
 wc = cv2.VideoCapture(0)
 
